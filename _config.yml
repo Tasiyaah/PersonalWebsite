@@ -1,0 +1,58 @@
+title: Tasiyaah
+
+url: tasiyaah.com
+
+# Owner/author information
+owner:
+  name: tasiyaah
+  avatar: tasiyaah.jpg
+  # bio: Two roads diverged in woods, I took the one less traveled by.
+  email: tasiyaah.kingshook@ieee.org
+  cv: tasiyaah.kingshook.cv
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+
+  github: Tasiyaah
+  linkedin: hkingshook
+  scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
+  facebook: tasiyaah
+  # instagram: lancecai2002
+  # lastfm:
+  # tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  # google_plus:
+
+links:
+  - title: About Me
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Awards
+    url: /awards/
+  - title: Hobbies
+    url: /hobbies/
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Japan/Tokyo
+future: true
+highlighter: rouge
+
+
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+# disqus settings:
+disqus:
+  shortname: lancecai
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
+
